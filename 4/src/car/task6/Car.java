@@ -99,14 +99,8 @@ public abstract class Car {
                java.util.Objects.equals(licensePlate, other.licensePlate);
     }
     
-    @Override
-    public final int hashCode() {
-        return java.util.Objects.hash(brand, color, engine, wheelsCount, licensePlate);
-    }
-    
  
     public final String getBaseInfo() {
-        return "Автомобиль " + brand + " (" + getClass().getSimpleName() + 
-               "), цвет: " + color + ", колес: " + wheelsCount;
+        return "Автомобиль " + brand + " (" + getClass().getSimpleName() + "), цвет: " + color + ", колес: " + wheelsCount;
     }
 }

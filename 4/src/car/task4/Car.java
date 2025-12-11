@@ -11,10 +11,8 @@ public class Car {
     private final int wheelsCount;
     
 
-    private static final String LICENSE_PLATE_REGEX = 
-        "^[АВЕКМНОРСТУХ]\\d{3}[АВЕКМНОРСТУХ]{2}\\d{2,3}RUS$";
-    private static final Pattern LICENSE_PLATE_PATTERN = 
-        Pattern.compile(LICENSE_PLATE_REGEX);
+    private static final String LICENSE_PLATE_REGEX = "^[АВЕКМНОРСТУХ]\\d{3}[АВЕКМНОРСТУХ]{2}\\d{2,3}RUS$";
+    private static final Pattern LICENSE_PLATE_PATTERN = Pattern.compile(LICENSE_PLATE_REGEX);
     
 
     public Car(String brand, CarType type, String color, Engine engine, int wheelsCount) {
@@ -44,7 +42,6 @@ public class Car {
     public Engine getEngine() { return engine; }
     public int getWheelsCount() { return wheelsCount; }
     
-
     public void setColor(String color) { 
         this.color = color; 
     }

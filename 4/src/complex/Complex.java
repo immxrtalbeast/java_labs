@@ -101,11 +101,6 @@ public class Complex {
         return Double.compare(complex.re, re) == 0 &&Double.compare(complex.im, im) == 0;
     }
 
-    @Override
-    public int hashCode() {
-        return java.util.Objects.hash(re, im);
-    }
-
 
 
     // Алгебраическая форма

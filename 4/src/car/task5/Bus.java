@@ -2,7 +2,7 @@ package car.task5;
 
 import java.util.regex.Pattern;
 
-public final class Bus extends Car {
+public class Bus extends Car {
     private static final String LICENSE_PLATE_REGEX = 
         "^[АВЕКМНОРСТУХ]\\d{3}[АВЕКМНОРСТУХ]{2}\\d{2,3}RUS$";
     private static final Pattern LICENSE_PLATE_PATTERN = 

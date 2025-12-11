@@ -44,7 +44,7 @@ public class CarEngineTest {
         System.out.println("Электромобиль: " + electricCar);
         
         System.out.println("\n=== ТЕСТИРОВАНИЕ ГИБРИДНОГО АВТОМОБИЛЯ ===");
-        Engine hybridEngine = new Engine("SN-HYBRID-001", 200.0, 1.8, 5.5, FuelType.HYBRID, 4);
+        Engine hybridEngine = new Engine("SN-PETROL-002", 200.0, 1.8, 5.5, FuelType.PETROL, 4);
         Car hybridCar = new Car("Toyota Prius", CarType.PASSENGER, "Серебристый", hybridEngine, 4);
         System.out.println("Гибридный автомобиль: " + hybridCar);
     }

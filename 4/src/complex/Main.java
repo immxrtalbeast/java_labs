@@ -1,10 +1,10 @@
 package complex;
 
+
 public class Main {
     public static void main(String[] args) {
         Complex z1 = new Complex(1, 1); 
         Complex z2 = new Complex(0, 1);
-
         System.out.println("z1 = " + z1);
         System.out.println("z2 = " + z2);
         System.out.println("z1 + z2 = " + z1.add(z2));

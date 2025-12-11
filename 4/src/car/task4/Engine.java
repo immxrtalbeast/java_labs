@@ -61,8 +61,4 @@ public class Engine {
         return serialNumber.equals(other.serialNumber);
     }
     
-    @Override
-    public int hashCode() {
-        return serialNumber.hashCode();
-    }
 }
